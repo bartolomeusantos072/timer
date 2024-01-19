@@ -1,4 +1,4 @@
-
+(function Stopwatch(){
 const timer = document.querySelector('.timer');
 let segundos =0;
 let interval;
@@ -54,3 +54,4 @@ function functionReset(){
     timer.innerHTML='00:00:00';
     timer.style.color='red';
 }
+}());
